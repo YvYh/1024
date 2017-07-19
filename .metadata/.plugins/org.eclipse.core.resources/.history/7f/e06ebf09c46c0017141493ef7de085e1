@@ -1,0 +1,9 @@
+package fonctions;
+import Square;
+
+public class variable {
+	double random = 10*Math.random();
+	int max;
+	Square[][] base = new Square[4][4];
+
+}

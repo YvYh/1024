@@ -1,0 +1,44 @@
+
+public class Square {
+	int valeur;
+	//int[] place = new int[2];
+	int x;
+	int y;
+	
+	public  Square(){
+		valeur = 0;
+		x=0;
+		y=0;
+	}
+	
+	public Square(int valeur, int x, int y)
+	{
+		this.valeur=valeur;
+		this.x=x;
+		this.y=y;
+	}
+	
+	public void setValeur(int valeur)
+	{
+		this.valeur=valeur;
+	}
+	
+	public int getValeur()
+	{
+		return valeur;
+	}
+	
+	public void setPlace(int x, int y){
+		this.x=x;
+		this.y=y;
+	}
+	
+	public int getX(){
+		return x;
+	}
+	
+	public int getY(){
+		return y;
+	}
+
+}

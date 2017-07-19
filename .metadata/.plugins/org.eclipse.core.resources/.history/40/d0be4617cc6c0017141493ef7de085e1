@@ -1,0 +1,16 @@
+import initialization.variable;
+public class test {
+
+	public static void main(String[] args) {
+		variable.start();
+		
+		for (int i=0; i<4; i++){
+			for (int j=0; j<4; j++){
+				System.out.print(variable.base[j][i].getValue()+" ");
+			}
+			System.out.println();
+		}
+
+	}
+
+}
